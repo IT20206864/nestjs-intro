@@ -7,7 +7,7 @@ handlers:
   static_files: dist/nestjs-intro/main.js
   upload: dist/nestjs-intro/main.js
 - url: /
-  static_dir: dist/nestks-intro
+  static_dir: dist/nestjs-intro
 
 skip_files:
  - node_modules/
