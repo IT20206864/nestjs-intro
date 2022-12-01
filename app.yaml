@@ -1,0 +1,14 @@
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers: 
+- url: /
+  static_files: dist/nestjs-intro/main.js
+  upload: dist/nestjs-intro/main.js
+- url: /
+  static_dir: dist/nestks-intro
+
+skip_files:
+ - node_modules/
+ - src/
